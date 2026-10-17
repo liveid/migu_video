@@ -358,7 +358,7 @@ def update(live, url):
 def main():
     # 使用 r'...' 原始字符串，完美保留你的预期内容，且绝对不会触发转义警告
     m3u_header = (
-        r'#EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://hk.gh-proxy.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://develop202.github.io/migu_video/playback.xml,https://raw.githubusercontents.com/develop202/migu_video/refs/heads/main/playback.xml" '
+        r'#EXTM3U x-tvg-url="https://gitee.com/mytv-android/mymigu/raw/main/epg.xml.gz" '
         r'catchup="append" catchup-source="&playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"'
         '\n'
     )
