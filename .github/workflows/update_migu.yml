@@ -49,7 +49,8 @@ jobs:
         cd "$REPO_NAME" || exit 1  # 强制失败时退出
 
         # 后续操作...
-        [ -f "../migu.m3u" ] && mv ../migu.m3u ./migu.m3u || true
+        #[ -f "../migu.m3u" ] && mv ../migu.m3u ./migu.m3u || true
+        [ -f "../migu-86d8f7a1-f1c3-4b40-bf66-9c3dd090ff61.m3u" ] && mv ../migu-86d8f7a1-f1c3-4b40-bf66-9c3dd090ff61.m3u ./migu-86d8f7a1-f1c3-4b40-bf66-9c3dd090ff61.m3u || true
         [ -f "../cctv.migu.m3u" ] && mv ../cctv.migu.m3u ./cctv.migu.m3u || true
         [ -f ../rkt.m3u ] && mv ../rkt.m3u ./rakutentv.m3u || true
         [ -f ../plt.m3u ] && mv ../plt.m3u ./plutotv.m3u || true
