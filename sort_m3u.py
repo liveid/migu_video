@@ -3,7 +3,8 @@ import re
 
 # ====================== 配置 ======================
 input_file = "mig.m3u"          # 你的原始文件
-output_full = "migu.m3u"         # 完整排序文件（频道名不动）
+output_full = "migu-86d8f7a1-f1c3-4b40-bf66-9c3dd090ff61.m3u"         # 完整排序文件（频道名不动）
+# output_full = "migu.m3u"         # 完整排序文件（频道名不动）
 output_cctv = "cctv.migu.m3u"    # 只包含央视的文件（频道名简化）
 # =================================================
 
